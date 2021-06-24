@@ -2,10 +2,23 @@
     "packageDirectories": [
         {
             "path": "Package-A",
-            "default": true,
+            "default": false,
             "package": "SFDX-Package-A",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "SFDX-Package-B",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "SFDX-Package-A",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
         }
     ],
     "name": "SFDX Hulk",
@@ -14,6 +27,8 @@
     "sourceApiVersion": "52.0",
     "packageAliases": {
         "SFDX-Package-A": "0Ho0K000000003eSAA",
-        "SFDX-Package-A@0.1.0-1": "04t0K000001E3wIQAS"
+        "SFDX-Package-A@0.1.0-1": "04t0K000001E3wIQAS",
+        "SFDX-Package-B": "0Ho0K000000003oSAA",
+        "SFDX-Package-B@0.1.0-1": "04t0K000001E3wNQAS"
     }
 }

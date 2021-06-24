@@ -1,0 +1,19 @@
+{
+    "packageDirectories": [
+        {
+            "path": "Package-A",
+            "default": true,
+            "package": "SFDX-Package-A",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "SFDX Hulk",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "SFDX-Package-A": "0Ho0K000000003eSAA",
+        "SFDX-Package-A@0.1.0-1": "04t0K000001E3wIQAS"
+    }
+}

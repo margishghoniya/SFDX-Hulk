@@ -10,4 +10,7 @@ public with sharing class EmployeeUtil {
     public static void finalCommit(){
         System.debug('final Commit-----');
     } 
+    public static void getGit(){
+        System.debug('get git---');
+    }
 }
